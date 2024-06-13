@@ -24,7 +24,7 @@ function Form({ moviesearch }) {
           placeholder="Search"
           id="input"
           className="input"
-          name="text"
+          name="searchTerm"
           type="text"
           value={formData.searchTerm}
           onChange={handleChange}
